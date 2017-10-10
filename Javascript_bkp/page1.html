@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/searchStyle.css">
+    </head>
+    <body>
+        <div class="showTitle" id="title">
+            <div>My Search Engine</div>
+        </div>
+        <span class="searchSpan" id="searchSpan">   
+          <input id="searchInput" type="text" placeholder="Search.." onkeyup="return buttonFunc(event)">
+        </span>
+        <span>
+            <div id="searchResults" class="hideDiv">Results for </div>
+            <div style=""> found {{}} results</div>
+        </span>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script/searchScript.js"></script>
+    </body>
+</html>
